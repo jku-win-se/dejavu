@@ -1,0 +1,72 @@
+***************BEGIN CASES FOR ADDED CLASSES***************
+
+
+IMergeIterator.java --- Results for Scenario 1
+=====================================================================
+Class   |  Rules in which it applies
+Rule 10 |  []
+Rule 40 |  [MergeIterator.java]
+
+1
+IMergeIterator.java --- Results for Scenario 2
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [MergeIterator.java]
+Rule 21 |  []
+Rule 22 |  []
+Rule 26 |  [CompactionManager.java, KeyIterator.java, SSTableScanner.java, CloseableIterator.java, ColumnFamilyStore.java, MergeIterator$Candidate.java, ParallelCompactionIterable$Unwrapper.java, ReducingKeyIterator.java, RangeSliceResponseResolver$RowIterator.java, CollationController.java, MergeIteratorTest$CLI.java, CompactionTask.java, IColumnIterator.java, RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, MergeIterator.java, ParallelCompactionIterable$Deserializer.java]
+Rule 44 |  []
+
+MergeIterator.java
+2
+IMergeIterator.java --- Results for Scenario 3
+=====================================================================
+Class   |  Rules in which it applies
+Rule 7  |  []
+Rule 15 |  []
+Rule 23 |  []
+Rule 29 |  []
+Rule 46 |  []
+
+
+0
+IMergeIterator.java --- Results for Scenario 4
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [MergeIterator.java]
+Rule 14 |  []
+Rule 21 |  []
+Rule 22 |  []
+Rule 26 |  [CompactionManager.java, KeyIterator.java, SSTableScanner.java, CloseableIterator.java, ColumnFamilyStore.java, MergeIterator$Candidate.java, ParallelCompactionIterable$Unwrapper.java, ReducingKeyIterator.java, RangeSliceResponseResolver$RowIterator.java, CollationController.java, MergeIteratorTest$CLI.java, CompactionTask.java, IColumnIterator.java, RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, MergeIterator.java, ParallelCompactionIterable$Deserializer.java]
+Rule 35 |  [RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, IColumnIterator.java, MergeIteratorTest$CLI.java, CompactionManager.java, ReducingKeyIterator.java, SSTableScanner.java, MergeIterator$Candidate.java, MergeIterator.java, RangeSliceResponseResolver$RowIterator.java, ColumnFamilyStore.java, CloseableIterator.java, ParallelCompactionIterable$Deserializer.java, CompactionTask.java, KeyIterator.java, ParallelCompactionIterable$Unwrapper.java, CollationController.java]
+
+MergeIterator.java
+3
+IMergeIterator.java --- Results for Scenario 5
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [MergeIterator.java]
+Rule 22 |  []
+Rule 26 |  [CompactionManager.java, KeyIterator.java, SSTableScanner.java, CloseableIterator.java, ColumnFamilyStore.java, MergeIterator$Candidate.java, ParallelCompactionIterable$Unwrapper.java, ReducingKeyIterator.java, RangeSliceResponseResolver$RowIterator.java, CollationController.java, MergeIteratorTest$CLI.java, CompactionTask.java, IColumnIterator.java, RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, MergeIterator.java, ParallelCompactionIterable$Deserializer.java]
+Rule 35 |  [RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, IColumnIterator.java, MergeIteratorTest$CLI.java, CompactionManager.java, ReducingKeyIterator.java, SSTableScanner.java, MergeIterator$Candidate.java, MergeIterator.java, RangeSliceResponseResolver$RowIterator.java, ColumnFamilyStore.java, CloseableIterator.java, ParallelCompactionIterable$Deserializer.java, CompactionTask.java, KeyIterator.java, ParallelCompactionIterable$Unwrapper.java, CollationController.java]
+Rule 48 |  [CloseableIterator.java]
+
+CloseableIterator.java
+3
+IMergeIterator.java --- Results for Scenario 6
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [MergeIterator.java]
+Rule 22 |  []
+Rule 26 |  [CompactionManager.java, KeyIterator.java, SSTableScanner.java, CloseableIterator.java, ColumnFamilyStore.java, MergeIterator$Candidate.java, ParallelCompactionIterable$Unwrapper.java, ReducingKeyIterator.java, RangeSliceResponseResolver$RowIterator.java, CollationController.java, MergeIteratorTest$CLI.java, CompactionTask.java, IColumnIterator.java, RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, MergeIterator.java, ParallelCompactionIterable$Deserializer.java]
+Rule 35 |  [RowIteratorFactory$ConvertToColumnIterator.java, FBUtilities$WrappedCloseableIterator.java, IColumnIterator.java, MergeIteratorTest$CLI.java, CompactionManager.java, ReducingKeyIterator.java, SSTableScanner.java, MergeIterator$Candidate.java, MergeIterator.java, RangeSliceResponseResolver$RowIterator.java, ColumnFamilyStore.java, CloseableIterator.java, ParallelCompactionIterable$Deserializer.java, CompactionTask.java, KeyIterator.java, ParallelCompactionIterable$Unwrapper.java, CollationController.java]
+Rule 49 |  []
+
+
+0
+test5
+
+
+***************BEGIN CASES FOR DELETED CLASSES***************
+
+

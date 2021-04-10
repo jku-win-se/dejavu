@@ -1,0 +1,163 @@
+***************BEGIN CASES FOR ADDED CLASSES***************
+
+
+UnknownColumnFamilyException.java --- Results for Scenario 1
+=====================================================================
+Class   |  Rules in which it applies
+Rule 10 |  []
+Rule 40 |  [UnserializableColumnFamilyException.java, SchemaCheckVerbHandler.java, ConfigurationException.java, SeedProviderDef.java]
+
+4
+UnknownColumnFamilyException.java --- Results for Scenario 2
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [UnserializableColumnFamilyException.java, SchemaCheckVerbHandler.java, ConfigurationException.java, SeedProviderDef.java]
+Rule 21 |  []
+Rule 22 |  []
+Rule 26 |  []
+Rule 44 |  [UnserializableColumnFamilyException.java]
+
+SchemaCheckVerbHandler.java
+1
+UnknownColumnFamilyException.java --- Results for Scenario 3
+=====================================================================
+Class   |  Rules in which it applies
+Rule 7  |  [ConfigurationException.javaSchemaCheckVerbHandler.java, ConfigurationException.javaSeedProviderDef.java, ConfigurationException.javaUnserializableColumnFamilyException.java, SchemaCheckVerbHandler.javaSeedProviderDef.java, SchemaCheckVerbHandler.javaUnserializableColumnFamilyException.java, SeedProviderDef.javaUnserializableColumnFamilyException.java]
+Rule 15 |  []
+Rule 23 |  []
+Rule 29 |  []
+Rule 46 |  []
+
+ConfigurationException.javaSchemaCheckVerbHandler.java
+1
+UnknownColumnFamilyException.java --- Results for Scenario 4
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [UnserializableColumnFamilyException.java, SchemaCheckVerbHandler.java, ConfigurationException.java, SeedProviderDef.java]
+Rule 14 |  []
+Rule 21 |  []
+Rule 22 |  []
+Rule 26 |  []
+Rule 35 |  []
+
+UnserializableColumnFamilyException.java
+1
+UnknownColumnFamilyException.java --- Results for Scenario 5
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [UnserializableColumnFamilyException.java, SchemaCheckVerbHandler.java, ConfigurationException.java, SeedProviderDef.java]
+Rule 22 |  []
+Rule 26 |  []
+Rule 35 |  []
+Rule 48 |  []
+
+
+0
+UnknownColumnFamilyException.java --- Results for Scenario 6
+=====================================================================
+Class   |  Rules in which it applies
+Rule 6  |  [UnserializableColumnFamilyException.java, SchemaCheckVerbHandler.java, ConfigurationException.java, SeedProviderDef.java]
+Rule 22 |  []
+Rule 26 |  []
+Rule 35 |  []
+Rule 49 |  []
+
+
+0
+test3
+***************BEGIN CASES FOR DELETED CLASSES***************
+
+
+Context.java --- Results for Scenario 7
+=====================================================================
+Class   |  Rules in which it applies
+Rule 41 |  [Over 100 results returned for this rule.]
+Rule 42 |  []
+
+482
+0
+Context.java --- Results for Scenario 8
+=====================================================================
+Class   |  Rules in which it applies
+Rule 8  |  []
+Rule 17 |  []
+Rule 25 |  [Over 100 results returned for this rule.]
+Rule 31 |  [WordCount$ReducerToCassandra.javaWordCountCounters$SumMapper.java, WordCount$ReducerToCassandra.javaWordCount$TokenizerMapper.java, WordCount$TokenizerMapper.javaWordCountCounters$SumMapper.java, WordCount$ReducerToCassandra.javaWordCount$ReducerToFilesystem.java, WordCount$ReducerToFilesystem.javaWordCountCounters$SumMapper.java, WordCount$ReducerToFilesystem.javaWordCount$TokenizerMapper.java]
+Rule 36 |  [Over 100 results returned for this rule.]
+
+
+0
+Context.java --- Results for Scenario 9
+=====================================================================
+Class   |  Rules in which it applies
+Rule 9  |  []
+Rule 19 |  []
+Rule 24 |  []
+Rule 33 |  []
+Rule 38 |  []
+
+
+0
+test9
+UnserializableColumnFamilyException.java --- Results for Scenario 7
+=====================================================================
+Class   |  Rules in which it applies
+Rule 41 |  [Over 100 results returned for this rule.]
+Rule 42 |  []
+
+482
+0
+UnserializableColumnFamilyException.java --- Results for Scenario 8
+=====================================================================
+Class   |  Rules in which it applies
+Rule 8  |  [ConfigurationException.javaSchemaCheckVerbHandler.java, ConfigurationException.javaSeedProviderDef.java, ConfigurationException.javaUnknownColumnFamilyException.java, SchemaCheckVerbHandler.javaSeedProviderDef.java, SchemaCheckVerbHandler.javaUnknownColumnFamilyException.java, SeedProviderDef.javaUnknownColumnFamilyException.java]
+Rule 17 |  []
+Rule 25 |  []
+Rule 31 |  []
+Rule 36 |  []
+
+ConfigurationException.javaSchemaCheckVerbHandler.java
+1
+UnserializableColumnFamilyException.java --- Results for Scenario 9
+=====================================================================
+Class   |  Rules in which it applies
+Rule 9  |  []
+Rule 19 |  []
+Rule 24 |  []
+Rule 33 |  []
+Rule 38 |  []
+
+
+0
+test8
+XMLUtils.java --- Results for Scenario 7
+=====================================================================
+Class   |  Rules in which it applies
+Rule 41 |  [Over 100 results returned for this rule.]
+Rule 42 |  []
+
+482
+0
+XMLUtils.java --- Results for Scenario 8
+=====================================================================
+Class   |  Rules in which it applies
+Rule 8  |  []
+Rule 17 |  []
+Rule 25 |  []
+Rule 31 |  []
+Rule 36 |  []
+
+
+0
+XMLUtils.java --- Results for Scenario 9
+=====================================================================
+Class   |  Rules in which it applies
+Rule 9  |  []
+Rule 19 |  []
+Rule 24 |  []
+Rule 33 |  []
+Rule 38 |  []
+
+
+0
+test9

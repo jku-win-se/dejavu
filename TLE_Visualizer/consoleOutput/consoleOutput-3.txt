@@ -1,0 +1,101 @@
+***************BEGIN CASES FOR ADDED CLASSES***************
+
+
+
+
+***************BEGIN CASES FOR DELETED CLASSES***************
+
+
+SimpleAuthenticator.java --- Results for Scenario 7
+=====================================================================
+Class   |  Rules in which it applies
+Rule 41 |  [Over 100 results returned for this rule.]
+Rule 42 |  []
+
+483
+0
+SimpleAuthenticator.java --- Results for Scenario 8
+=====================================================================
+Class   |  Rules in which it applies
+Rule 8  |  [AllowAllAuthenticator.javaCliClient.java, AllowAllAuthenticator.javaIAuthenticator.java, CliClient.javaIAuthenticator.java]
+Rule 17 |  []
+Rule 25 |  []
+Rule 31 |  []
+Rule 36 |  [AllowAllAuthenticator.javaCliClient.java, CliClient.javaIAuthenticator.java, AllowAllAuthenticator.javaIAuthenticator.java]
+
+AllowAllAuthenticator.javaCliClient.java
+2
+SimpleAuthenticator.java --- Results for Scenario 9
+=====================================================================
+Class   |  Rules in which it applies
+Rule 9  |  []
+Rule 19 |  []
+Rule 24 |  []
+Rule 33 |  []
+Rule 38 |  []
+
+
+0
+test8
+SimpleAuthority.java --- Results for Scenario 7
+=====================================================================
+Class   |  Rules in which it applies
+Rule 41 |  [Over 100 results returned for this rule.]
+Rule 42 |  []
+
+483
+0
+SimpleAuthority.java --- Results for Scenario 8
+=====================================================================
+Class   |  Rules in which it applies
+Rule 8  |  []
+Rule 17 |  []
+Rule 25 |  [Over 100 results returned for this rule.]
+Rule 31 |  []
+Rule 36 |  [AllowAllAuthority.javaUpdateKeyspace.java, AddKeyspace.javaAllowAllAuthority.java, AllowAllAuthority.javaThriftValidation.java, AllowAllAuthority.javaReversedType.java, AllowAllAuthority.javaFBUtilities.java, AllowAllAuthority.javaDropKeyspace.java, AllowAllAuthority.javaSystemTable.java, AllowAllAuthority.javaCassandraServer.java, AllowAllAuthority.javaSSTableImport.java, AllowAllAuthority.javaDatabaseDescriptor.java, AllowAllAuthority.javaSecondaryIndex.java, AllowAllAuthority.javaTable.java, AllowAllAuthority.javaCreateKeyspaceStatement.java, AllowAllAuthority.javaCompositeType.java, AllowAllAuthority.javaSecondaryIndexManager.java, AbstractType.javaAllowAllAuthority.java, AllowAllAuthority.javaDeleteStatement.java, AllowAllAuthority.javaCompressionParameters.java, AllowAllAuthority.javaMigration.java, AddColumnFamily.javaAllowAllAuthority.java, AllowAllAuthenticator.javaAllowAllAuthority.java, AllowAllAuthority.javaStorageService.java, AllowAllAuthority.javaSerializingCacheProvider.java, AllowAllAuthority.javaTypeParser.java, AllowAllAuthority.javaCFMetaData.java, AllowAllAuthority.javaKSMetaData.java, AllowAllAuthority.javaKeysIndex.java, AllowAllAuthority.javaCliClient.java, AllowAllAuthority.javaSimpleStrategy.java, AllowAllAuthority.javaClientState.java, AllowAllAuthority.javaSchema.java, AllowAllAuthority.javaCompressionMetadata.java, AbstractCassandraDaemon.javaAllowAllAuthority.java, AbstractReplicationStrategy.javaAllowAllAuthority.java, AllowAllAuthority.javaUpdateColumnFamily.java, AllowAllAuthority.javaDropColumnFamily.java, AllowAllAuthority.javaEc2Snitch.java, AllowAllAuthority.javaRenameKeyspace.java, AllowAllAuthority.javaColumnDefinition.java, AllowAllAuthority.javaNetworkTopologyStrategy.java, AllowAllAuthority.javaMessagingService.java, AllowAllAuthority.javaQueryProcessor.java, AllowAllAuthority.javaAlterTableStatement.java, AllowAllAuthority.javaPropertyFileSnitch.java, AllowAllAuthority.javaUpdateStatement.java, AllowAllAuthority.javaCreateColumnFamilyStatement.java, AllowAllAuthority.javaNodeProbe.java, AllowAllAuthority.javaSSTableExport.java, AllowAllAuthority.javaDynamicCompositeType.java, AllowAllAuthority.javaNodeCmd.java, AllowAllAuthority.javaEc2MultiRegionSnitch.java, AllowAllAuthority.javaRenameColumnFamily.java, AllowAllAuthority.javaLocalStrategy.java, AllowAllAuthority.javaBootStrapper.java, AllowAllAuthority.javaOldNetworkTopologyStrategy.java, AllowAllAuthority.javaDropIndexStatement.java]
+
+
+0
+SimpleAuthority.java --- Results for Scenario 9
+=====================================================================
+Class   |  Rules in which it applies
+Rule 9  |  []
+Rule 19 |  []
+Rule 24 |  []
+Rule 33 |  []
+Rule 38 |  []
+
+
+0
+test9
+AIOExecutorService.java --- Results for Scenario 7
+=====================================================================
+Class   |  Rules in which it applies
+Rule 41 |  [Over 100 results returned for this rule.]
+Rule 42 |  []
+
+483
+0
+AIOExecutorService.java --- Results for Scenario 8
+=====================================================================
+Class   |  Rules in which it applies
+Rule 8  |  [AbstractCommitLogExecutorService.javaColumnFamilyOutputFormat.java, AbstractCommitLogExecutorService.javaCommitLogMBean.java, AbstractCommitLogExecutorService.javaDebuggableThreadPoolExecutor.java, AbstractCommitLogExecutorService.javaIAsyncResult.java, AbstractCommitLogExecutorService.javaICommitLogExecutorService.java, AbstractCommitLogExecutorService.javaIExecutorMBean.java, AbstractCommitLogExecutorService.javaJMXEnabledThreadPoolExecutorMBean.java, AbstractCommitLogExecutorService.javaStreamingRepairTask.java, ColumnFamilyOutputFormat.javaCommitLogMBean.java, ColumnFamilyOutputFormat.javaDebuggableThreadPoolExecutor.java, ColumnFamilyOutputFormat.javaIAsyncResult.java, ColumnFamilyOutputFormat.javaICommitLogExecutorService.java, ColumnFamilyOutputFormat.javaIExecutorMBean.java, ColumnFamilyOutputFormat.javaJMXEnabledThreadPoolExecutorMBean.java, ColumnFamilyOutputFormat.javaStreamingRepairTask.java, CommitLogMBean.javaDebuggableThreadPoolExecutor.java, CommitLogMBean.javaIAsyncResult.java, CommitLogMBean.javaICommitLogExecutorService.java, CommitLogMBean.javaIExecutorMBean.java, CommitLogMBean.javaJMXEnabledThreadPoolExecutorMBean.java, CommitLogMBean.javaStreamingRepairTask.java, DebuggableThreadPoolExecutor.javaIAsyncResult.java, DebuggableThreadPoolExecutor.javaICommitLogExecutorService.java, DebuggableThreadPoolExecutor.javaIExecutorMBean.java, DebuggableThreadPoolExecutor.javaJMXEnabledThreadPoolExecutorMBean.java, DebuggableThreadPoolExecutor.javaStreamingRepairTask.java, IAsyncResult.javaICommitLogExecutorService.java, IAsyncResult.javaIExecutorMBean.java, IAsyncResult.javaJMXEnabledThreadPoolExecutorMBean.java, IAsyncResult.javaStreamingRepairTask.java, ICommitLogExecutorService.javaIExecutorMBean.java, ICommitLogExecutorService.javaJMXEnabledThreadPoolExecutorMBean.java, ICommitLogExecutorService.javaStreamingRepairTask.java, IExecutorMBean.javaJMXEnabledThreadPoolExecutorMBean.java, IExecutorMBean.javaStreamingRepairTask.java, JMXEnabledThreadPoolExecutorMBean.javaStreamingRepairTask.java]
+Rule 17 |  []
+Rule 25 |  []
+Rule 31 |  []
+Rule 36 |  [IExecutorMBean.javaJMXEnabledThreadPoolExecutorMBean.java, AbstractCommitLogExecutorService.javaICommitLogExecutorService.java, DebuggableThreadPoolExecutor.javaStreamingRepairTask.java]
+
+AbstractCommitLogExecutorService.javaICommitLogExecutorService.java
+2
+AIOExecutorService.java --- Results for Scenario 9
+=====================================================================
+Class   |  Rules in which it applies
+Rule 9  |  []
+Rule 19 |  []
+Rule 24 |  []
+Rule 33 |  []
+Rule 38 |  []
+
+
+0
+test8

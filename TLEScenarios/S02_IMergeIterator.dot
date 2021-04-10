@@ -1,0 +1,28 @@
+digraph g { graph [ rankdir = "LR"];
+node [ fontsize = "16" shape = "record" ];
+edge [];
+"node0" [
+label = "<f0> CloseableIterator | <f1> Original class | <f2> 1.0.0-beta1 | <f3> "
+shape = "record"
+color = "black"
+];
+"node1" [
+label = "Extend
+superclass"shape = "oval"
+color = "black"
+];"node2" [
+label = "<f0> IMergeIterator | <f1> Subclass of CloseableIterator | <f2> 1.0.0-rc1
+ | <f3> "
+shape = "record"
+color = "black"
+];
+"node0":f0 -> "node1":f0
+[
+id = 0
+];
+"node1":f0 -> "node2":f0
+[
+id = 1
+];
+
+}

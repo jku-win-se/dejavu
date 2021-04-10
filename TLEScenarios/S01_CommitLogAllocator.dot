@@ -1,0 +1,36 @@
+digraph g { graph [ rankdir = "LR"];
+node [ fontsize = "16" shape = "record" ];
+edge [];
+"node0" [
+label = "Create
+new
+function"shape = "oval"
+color = "black"
+];"node1" [
+label = "<f0> CommitLogAllocator | <f1> Added class\nExtracted class | <f2> 1.1.1 | <f3> F334, F335"
+shape = "record"
+color = "black"
+];
+"node2" [
+label = "<f0> CommitLog | <f1> Original class | <f2> 1.0.10 | <f3> "
+shape = "record"
+color = "black"
+];
+"node3" [
+label = "Extract
+class"shape = "oval"
+color = "black"
+];"node0":f0 -> "node1":f0
+[
+id = 0
+];
+"node2":f0 -> "node3":f0
+[
+id = 1
+];
+"node3":f0 -> "node1":f0
+[
+id = 2
+];
+
+}

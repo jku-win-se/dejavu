@@ -1,0 +1,59 @@
+digraph g { graph [ rankdir = "LR"];
+node [ fontsize = "16" shape = "record" ];
+edge [ ];
+"node0" [
+label = "<f0> CloseableIterator |<f1> F50"
+shape = "record"
+];
+"node1" [
+label = "<f0> IMergeIterator |<f1> F50"
+shape = "record"
+color = "green"];
+"node2" [
+label = "<f0> CloseableIterator |<f1> F50"
+shape = "record"
+];
+"node0":f0 -> "node1":f0 [
+id = 0
+];
+"node0":f0 -> "node2":f0 [
+id = 1
+];
+"node3" [
+label = "<f0> CloseableIterator |<f1> F50"
+shape = "record"
+];
+"node4" [
+label = "<f0> ICompactionScanner |<f1> F50"
+shape = "record"
+color = "green"];
+"node5" [
+label = "<f0> CloseableIterator |<f1> F50"
+shape = "record"
+];
+"node3":f0 -> "node4":f0 [
+id = 2
+];
+"node3":f0 -> "node5":f0 [
+id = 3
+];
+"node6" [
+label = "<f0> CloseableIterator |<f1> F50"
+shape = "record"
+];
+"node7" [
+label = "<f0> OnDiskAtomIterator |<f1> F50"
+shape = "record"
+color = "green"];
+"node8" [
+label = "<f0> CloseableIterator |<f1> F50"
+shape = "record"
+];
+"node6":f0 -> "node7":f0 [
+id = 4
+];
+"node6":f0 -> "node8":f0 [
+id = 5
+];
+
+}
