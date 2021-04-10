@@ -1,6 +1,6 @@
 # DejaVu - TLE Scenario Visualizer
 
-The DejaVu Visualzier is an Eclipse Plug-in for visualizing scenarios generated with TLE (Trace Link Evolver).
+The DejaVu Visualzier (*tle.dejavu.eclipse*) is an Eclipse Plug-in for visualizing scenarios generated with TLE (Trace Link Evolver).
 
 We provide the eclipse Plug-Ins and a sample datset from the Cassandra database.
 
@@ -11,7 +11,7 @@ In order to run DejaVu, copy the "TLEScenarios" project into your workspace, ope
 
 
 
-TLE-Visualizer (i.e., DejaVu) infers and structures source code change scenarios in the form of evolutionary graphs. These change scenarios are initially detected by our Trace Linc Evolver (TLE) tool. 
+*TLE_Visualizer** infers and structures source code change scenarios in the form of evolutionary graphs. These change scenarios are initially detected by our Trace Linc Evolver (TLE) tool. 
 Therefore, in order to visualize the change scenarios, TLE-Visualizer (i.e. DejaVu) originally requires the output files of TLE, which are the detected scenarios of changes across multiple versions of the source code.
 To share this tool independent from TLE (as discussed in the paper), we included the TLE detected scenarios for Cassandra versions (as used in the study) as input.
 This said, the Cassandra-relevant input files we included in this package include:
