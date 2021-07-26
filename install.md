@@ -17,7 +17,7 @@ Additionally, the following plug-ins need to be installed:
 2. Install the GEF4 and GEF5 framework from the Eclipse Update Site:
     - GEF4: http://download.eclipse.org/tools/gef/gef4/updates/releases 
     - GEF5: http://download.eclipse.org/tools/gef/updates/releases
-3. Install JavaFX support for Eclipse: e(fx)clipse https://www.eclipse.org/efxclipse/
+3. Install JavaFX support for Eclipse: e(fx)clipse can be directly installed from the eclipse update site (http://download.eclipse.org/releases/2020-03 when using Eclipse 4.15)
 
 ### Install GraphViz
 5. Install GraphViz: https://graphviz.org/download/
