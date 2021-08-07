@@ -51,4 +51,4 @@ Finds all relevant change scenarios to that class (detected by TLE) among the av
 Merges all change scenarios relevant to that class
 Generates a DOT graph called output.gv (GraphViz input file) to illustrated the result in the form of a single evolutionary graph.
 
-For Additional details about TLE and the algorithm, we refer to our previous publications about TLE https://doi.org/10.1109/ICSME.2016.57, https://doi.org/10.1007/s10664-017-9561-x, https://doi.org/10.1109/RePa.2015.7407734
+For Additional details about TLE and the algorithm, we refer to our previous publications about TLE: https://doi.org/10.1109/ICSME.2016.57, https://doi.org/10.1007/s10664-017-9561-x, https://doi.org/10.1109/RePa.2015.7407734
