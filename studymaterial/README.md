@@ -39,13 +39,13 @@ Specifically we have used:
 ### Change Scenarios:
 
 
- ##### <a id="CS1">CS 1:</a> Extracted Class
- ##### <a id="CS2">CS 2:</a> Added Merged Classes
- ##### <a id="CS4">CS 4:</a> Extracted Subclass
- ##### <a id="CS5">CS 5:</a> Extracted Superclass
- ##### <a id="CS6">CS 6:</a> Obsolete Functionality
- ##### <a id="CS8">CS 8:</a> Deleted Merged Classes
- ##### <a id="CS9">CS 9:</a> Renamed Class
+ ##### <a id="CS1">CS 1:</a> New Functionality 
+ ##### <a id="CS2">CS 2:</a> Extracted Class
+ ##### <a id="CS4">CS 4:</a> Promoted Method
+ ##### <a id="CS5">CS 5:</a> Extracted Subclass
+ ##### <a id="CS6">CS 6:</a> Extracted Superclass
+ ##### <a id="CS8">CS 8:</a> Divided Class
+ ##### <a id="CS9">CS 9:</a> Deleted Merged Classes
 
 
 
