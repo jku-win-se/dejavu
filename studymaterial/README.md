@@ -46,19 +46,19 @@ A detailed description of each Change scenario, triggers, and impact on the code
 
  ##### <a id="CS1">CS 1:</a> New Functionality: 
  Changes related to the addition of new functionality.
- ##### <a id="CS2">CS 2:</a> Extracted Class
+ ##### <a id="CS2">CS 2:</a> Extracted Class:
  A new class is extracted from an existing one.
- ##### <a id="CS4">CS 4:</a> Promoted Method
+ ##### <a id="CS4">CS 4:</a> Promoted Method:
  A new class is created by promoting a method.
  
- ##### <a id="CS5">CS 5:</a> Extracted Subclass
+ ##### <a id="CS5">CS 5:</a> Extracted Subclass:
  An existing subclass is extracted into a new class.
- ##### <a id="CS6">CS 6:</a> Extracted Superclass
+ ##### <a id="CS6">CS 6:</a> Extracted Superclass:
  Common features from existing classes are moved into a new
 shared superclass.
- ##### <a id="CS8">CS 8:</a> Divided Class
+ ##### <a id="CS8">CS 8:</a> Divided Class:
  One class is divided into two or more new classes.
- ##### <a id="CS9">CS 9:</a> Deleted Merged Classes
+ ##### <a id="CS9">CS 9:</a> Deleted Merged Classes:
  One class is mreged and the original class is deleted.
 
 
