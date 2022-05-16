@@ -16,17 +16,17 @@ Specifically we have used:
 
 ### Stories and Change Scenarios:
 | Story     | Affected Class      | Task | Change Scenario| 
-|--------------|---------------------|------------|
-|[S1](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S01.docx)            |  CommitAllocator   |  ➡️ _Task 1:_ Class CommitLogAllocator.java is extracted from class CommitLog.java, in version 1.1.1 | CS2
-|              |     | ➡️ _Task 2:_ New functionality is added to class CommitLogAllocator.java in version 1.1.1 from version 1.0.10. | CS1
+|--------------|---------------------|------------|------------|
+|[S1](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S01.docx)            |  CommitAllocator   |  ➡️ _Task 1:_ Class CommitLogAllocator.java is extracted from class CommitLog.java, in version 1.1.1 | CS2 |
+|              |     | ➡️ _Task 2:_ New functionality is added to class CommitLogAllocator.java in version 1.1.1 from version 1.0.10. | CS1 |
 |              |     |  | 
-|[S2](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S02.docx)            |   IMergeIterator   | ➡️ _Task 1:_ Class IMergeIterator.java is extracted as a subclass from class CloseableIterator.java, in version 1.0.0-rc1. | CS5
+|[S2](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S02.docx)            |   IMergeIterator   | ➡️ _Task 1:_ Class IMergeIterator.java is extracted as a subclass from class CloseableIterator.java, in version 1.0.0-rc1. | CS5 |
 |     |  | 
-|[S3](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S03.docx)            |   Memory, FreeableMemory,RefCountedMemory    | ➡️ _Task 1:_ Class Memory.java is extracted as a superclass from class FreeableMemory.java, in version 1.1.1 | CS6
-|            |      | ➡️ _Task 2:_ Methods originally in FreeableMemory.java ae reallocated between classes Memory.java and RefCountedMemory.java, in version 1.2.1 | CS8
-|            |     | ➡️ _Task 3:_ Class RefCountedMemory.java is added a as a subclass for class Memory.java in version 1.2.1 | CS5
+|[S3](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S03.docx)            |   Memory, FreeableMemory,RefCountedMemory    | ➡️ _Task 1:_ Class Memory.java is extracted as a superclass from class FreeableMemory.java, in version 1.1.1 | CS6 |
+|            |      | ➡️ _Task 2:_ Methods originally in FreeableMemory.java ae reallocated between classes Memory.java and RefCountedMemory.java, in version 1.2.1 | CS8 |
+|            |     | ➡️ _Task 3:_ Class RefCountedMemory.java is added a as a subclass for class Memory.java in version 1.2.1 | CS5 |
 |     |  | 
-|[S4](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S04.docx)            |  Migration, AddKeySpace, DropColumnFamily, ColumnFamilyStore, DefinitionsUpdateVerbHandler   |  ➡️ _Task 1:_ Class Migration.java is merged with class AddColumnFamily.java, in version 1.0.11.| CS6
-|            |     | ➡️ _Task 2:_ Class Migration.java is merged with class AddKeySpace.java, in version 1.0.11 | CS9
-|            |     | ➡️ _Task 3:_ Class Migration.java is merged with class DropColumnFamily.java, in version 1.0.11 | CS9
-|            |     | ➡️ _Task 4:_ Some Methods originally in class Migration.java are reallocated to ColumnFamilyStore.java and class DefinitionsUpdateVerbHandler.java in version 1.1.1. | CS4
+|[S4](https://github.com/jku-win-se/dejavu/raw/main/studymaterial/S04.docx)            |  Migration, AddKeySpace, DropColumnFamily, ColumnFamilyStore, DefinitionsUpdateVerbHandler   |  ➡️ _Task 1:_ Class Migration.java is merged with class AddColumnFamily.java, in version 1.0.11.| CS6 |
+|            |     | ➡️ _Task 2:_ Class Migration.java is merged with class AddKeySpace.java, in version 1.0.11 | CS9 |
+|            |     | ➡️ _Task 3:_ Class Migration.java is merged with class DropColumnFamily.java, in version 1.0.11 | CS9 |
+|            |     | ➡️ _Task 4:_ Some Methods originally in class Migration.java are reallocated to ColumnFamilyStore.java and class DefinitionsUpdateVerbHandler.java in version 1.1.1. | CS4 |
