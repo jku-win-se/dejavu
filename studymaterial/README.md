@@ -14,7 +14,7 @@ Specifically we have used:
 
 
 
-### Tasks:
+### Scenarios:
 | Scenario     | Affected Class      | Task |
 |--------------|---------------------|------------|
 |[S1](S01.docx)            |  CommitAllocator   |  ➡️ _Task 1:_ Class CommitLogAllocator.java is extracted from class CommitLog.java, in version 1.1.1 | 
@@ -26,29 +26,7 @@ Specifically we have used:
 |            |      | ➡️ _Task 2:_ Methods originally in FreeableMemory.java ae reallocated between classes Memory.java and RefCountedMemory.java, in version 1.2.1 | 
 |            |     | ➡️ _Task 3:_ Class RefCountedMemory.java is added a as a subclass for class Memory.java in version 1.2.1 | 
 |     |  | 
-|[S4](S04.docx)            |  CommitAllocator   |  ➡️ _Task 1:_ Class CommitLogAllocator.java is extracted from class CommitLog.java, in version 1.1.1 | 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Scenarios:
-Task1: Class Migration.java is merged with class AddColumnFamily.java, in version 1.0.11.
-	__ Correct		 __ Incorrect		 __ don’t know  
-Task2: Class Migration.java is merged with class AddKeySpace.java, in version 1.0.11.
-__ Correct		 __ Incorrect		 __ don’t know  
-Task3: Class Migration.java is merged with class DropColumnFamily.java, in version 1.0.11.
-	__ Correct		 __ Incorrect		 __ don’t know  
-Task4: Some Methods originally in class Migration.java are reallocated to ColumnFamilyStore.java and class DefinitionsUpdateVerbHandler.java in version 1.1.1.
-__ Correct		 __ Incorrect		 __ don’t know  
-
-
-
+|[S4](S04.docx)            |  Migration, AddKeySpace, DropColumnFamily, ColumnFamilyStore, DefinitionsUpdateVerbHandler   |  ➡️ _Task 1:_ Class Migration.java is merged with class AddColumnFamily.java, in version 1.0.11.| 
+|            |     | ➡️ _Task 2:_ Class Migration.java is merged with class AddKeySpace.java, in version 1.0.11 | 
+|            |     | ➡️ _Task 3:_ Class Migration.java is merged with class DropColumnFamily.java, in version 1.0.11 | 
+|            |     | ➡️ _Task 4:_ Some Methods originally in class Migration.java are reallocated to ColumnFamilyStore.java and class DefinitionsUpdateVerbHandler.java in version 1.1.1. | 
